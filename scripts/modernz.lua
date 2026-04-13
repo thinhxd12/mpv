@@ -3141,8 +3141,8 @@ local function osc_init()
             end
         end
     end
-    ne.eventresponder["wheel_up_press"] = function () mp.commandv("seek", 10) end
-    ne.eventresponder["wheel_down_press"] = function () mp.commandv("seek", -10) end
+    ne.eventresponder["wheel_up_press"] = function () mp.commandv("seek", 1, "exact") end
+    ne.eventresponder["wheel_down_press"] = function () mp.commandv("seek", -1, "exact") end
 
     --persistent seekbar
     ne = new_element("persistentseekbar", "slider")
