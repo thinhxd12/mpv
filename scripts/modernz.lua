@@ -36,7 +36,7 @@ local user_opts = {
     greenandgrumpy = false,                -- disable Santa hat in December
 
     -- OSC behaviour and scaling
-    hidetimeout = 1500,                    -- time (in ms) before OSC hides if no mouse movement
+    hidetimeout = 2000,                    -- time (in ms) before OSC hides if no mouse movement
     fadeduration = 200,                    -- fade-out duration (in ms), set to 0 for no fade
     fadein = false,                        -- whether to enable fade-in effect
     minmousemove = 0,                      -- minimum mouse movement (in pixels) required to show OSC

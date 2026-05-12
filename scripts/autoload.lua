@@ -6,7 +6,7 @@
 -- playlist entry at the same position - this makes it "stable".)
 -- Add at most 5000 * 2 files when starting a file (before + after).
 MAXENTRIES = 5000
-SORTBY = "name-desc" -- or 'name-desc', 'date', 'date-desc'
+SORTBY = "name" -- or 'name-desc', 'date', 'date-desc'
 
 function Set (t)
     local set = {}
